@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="main-title">Aibek Zhenisbekuly</h1>
+        <h2>Software Engineering Student | Group SE2522</h2>
+        <nav class="site-nav">
+            <a href="#about-me">About Me</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me" class="profile-card">
+            <h3>About Me</h3>
+            <img src="images/image.jpg" alt="Personal photo of Aibek Zhenisbekuly" class="profile-img">
+            <p>Hello! I am a first-year student studying Software Engineering. I am passionate about programming, theoretical computer science, and web development basics.</p>
+        </section>
+
+        <section id="hobbies">
+            <h3>My Hobbies & Favorite Websites</h3>
+            <h4>Hobbies</h4>
+            <ol>
+                <li>Developing Python scripts and algorithms</li>
+                <li>Solving higher mathematics problems</li>
+                <li>Customizing desktop environments</li>
+            </ol>
+
+            <h4>Favorite Websites</h4>
+            <ul>
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://w3schools.com" target="_blank">W3Schools</a></li>
+            </ul>
+
+            <button type="button" class="action-btn">Click Me</button>
+        </section>
+
+        <section id="schedule">
+            <h3>Class Schedule</h3>
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Introduction to finance</td>
+                        <td>Monday</td>
+                        <td>09:00 - 10:30</td>
+                    </tr>
+                    <tr>
+                        <td>Operating Systems</td>
+                        <td>Wednesday</td>
+                        <td>11:00 - 12:30</td>
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>Friday</td>
+                        <td>14:00 - 15:30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="mood">
+            <h3>Current Mood</h3>
+            <p class="mood-paragraph">Coding today feels great! 🚀 Ready to master HTML and CSS 💻 Productive vibes only 😊</p>
+        </section>
+
+        <section id="contact">
+            <h3>Contact Form</h3>
+            <form action="#" method="get" class="user-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="color">Favorite Color:</label>
+                    <input type="color" id="color" name="color">
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aibek Zhenisbekuly. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
